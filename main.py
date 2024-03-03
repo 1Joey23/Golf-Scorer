@@ -6,7 +6,7 @@ import csv
 
 # Open and interpret the data from the golf input csv file and the user, and assign data accordingly.
 def ReadGolfFile():
-    golfFileInput = open("C:\\Users\\Joey\\Documents\\Fall 2023 ITP\\Week 16\\Final Quisler\\\\GolfCourseInput.csv", "r")
+    golfFileInput = open(r"C:\Users\Joey\Documents\GitHub\Golf-Scorer\GolfCourseInput.csv", "r")
     
     currentGolfCourse = None
     lstGolfCourses = []
@@ -56,7 +56,7 @@ def TotalData(lstGolfCourses):
     
 # Write the output to the GolfCourseOutput.csv
 def WriteFileOutput(lstGolfCourses):
-    outputFile = open("C:\\Users\\Joey\\Documents\\Fall 2023 ITP\\Week 16\\Final Quisler\\\\GolfCourseOutput.csv", 'w', newline='')
+    outputFile = open("GolfCourseOutput.csv", 'w', newline='')
     csv_writer = csv.writer(outputFile)
 
     # Write header row with attributes of class, student, assignment, grage, average assignment percentage, and average assignment grade.
