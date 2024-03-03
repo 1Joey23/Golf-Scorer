@@ -1,4 +1,5 @@
 Thanks for checking out my golf project! This project was created for the final in my Intro To Programming class.
+To download the project, click the clone repository link and download the zip.
 
 To run the project, navigate to the main.py file, click view terminal, and run the project.
 ![Capture](https://github.com/1Joey23/Golf-Scorer/assets/136002112/5d7e977b-8426-49b4-a174-3c066eea4f24)
